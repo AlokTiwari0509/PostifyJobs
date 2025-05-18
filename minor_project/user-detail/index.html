@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSync-User Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h1>User Profile</h1>
+        <div class="profile-details">
+            <div class="detail">
+                <label for="name">Name:</label>
+                <span id="name"></span>                                                         <!-- NAME TAG HERE -->
+                <input type="text" id="nameInput" class="edit-input" style="display: none;">
+            </div>
+            <div class="detail">
+                <label for="email">Email:</label>
+                <span id="email"></span>                                                        <!-- EMAIL TAG HERE -->
+                <input type="email" id="emailInput" class="edit-input" style="display: none;">
+            </div>
+            <div class="detail">
+                <label for="phone">Phone:</label>
+                <span id="phone"></span>                                         <!-- PHONE NUMBER TAG HERE -->
+                <input type="tel" id="phoneInput" class="edit-input" style="display: none;">
+            </div>
+            <div class="detail">
+                <label for="address">Address:</label>
+                <span id="address"></span>                            <!-- ADDRESS TAG HERE -->
+                <input type="text" id="addressInput" class="edit-input" style="display: none;">
+            </div>
+        </div>
+        <div class="actions">
+            <button id="editButton">Edit Profile</button>
+            <button id="saveButton" style="display: none;">Save Changes</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

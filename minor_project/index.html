@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSync</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <div class="navbar">
+            <div class="main-info">
+                <a href="#">Home</a>
+                <a href="#">Employees</a>
+                <a href="#">Candidates</a>
+            </div>
+            <div class="contact">
+                <div class="support">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <a href="footer/about.html">Customer support</a>
+                </div>
+                <!-- Updated Profile Section with Dropdown -->
+                <div class="profile">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#">User Name</a>
+                    <!-- Dropdown Content -->
+                    <div class="dropdown-content">
+                        <a href="user-detail/index.html">User Details</a>
+                        <a href="resume/upload.html">Upload Resume</a>
+                        <a href="#" target="_main">View Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel -->
+        <div class="panel">
+            <div class="logo">
+                <i class="fa-solid fa-briefcase" href="#"></i>
+                <p href="#">SkillSync</p>
+            </div>
+
+            <div class="search-container">
+                <div class="country-select">
+                    <select class="Country">
+                        <option>India</option>
+                        <option>US</option>
+                        <option>UK</option>
+                    </select>
+                </div>
+
+                <input type="text" placeholder="Job Title, Keyword, company">
+
+                <button class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="auth-buttons">
+                <!-- <button class="signin-btn" onclick="goToLogin()">Sign In</button> -->
+                <button class="signin-btn">Sign In</button>
+                <button class="post-job-btn">Post A Job</button>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- Main hero section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find a job that suits <br> your interest & skills</h1>
+            
+            <!-- Search box (job title, location) -->
+            <div class="search-box">
+                <div class="input-group">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <input type="text" placeholder="Job title, Keyword...">
+                </div>
+
+                <div class="input-group">
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <input type="text" placeholder="Your Location">
+                </div>
+
+                <button class="btn">Find Job</button>
+            </div>
+
+            <p class="suggestions">
+                Suggestion: Designer, Programming, 
+                Digital Marketing, Video Animation.
+            </p>
+        </div>
+
+        <!-- Image -->
+        <div class="image">
+            <img src="assets/Illustration.jpg">
+        </div>
+    </section>
+
+    <!-- 4 live blocks below the hero section -->
+    <div class="blocks">
+        <div class="box">
+            <div class="box-content">
+                <div class="icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div class="detail-display"><p id="one">Live data here</p><p id="two">Live job</p></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <div class="icon"><i class="fa-regular fa-building"></i></div>
+                <div class="detail-display"><p id="one">Live data here</p><p id="two">Companies</p></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <div class="icon"><i class="fa-solid fa-users"></i></div>
+                <div class="detail-display"><p id="one">Live data here</p><p id="two">Candidates</p></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-content">
+                <div class="icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div class="detail-display"><p id="one">Live data here</p><p id="two">New jobs</p></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WorkFlow Image -->
+    <div class="WorkFlow_img"></div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="foot-panel1">
+            <ul>
+                <div class="icon-fix">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <p id="one">SkillSync</p>
+                </div>
+                <a><br>Call Now:<span class="number"> (+91) XXXXXXXXXX</span></a>
+                <a>Parul University, Vadodra, Gujarat</a>
+            </ul>
+
+            <ul>
+                <p><b>Quick Link</b></p><br>
+                <a href="footer/about.html">About</a>
+                <a href="footer/about.html">Contact</a>
+                <a href="#">Pricing</a>
+                <a href="#">Blog</a>
+            </ul>
+
+            <ul>
+                <p><b>Candidates</b></p><br>
+                <a href="#">Browse Jobs</a>
+                <a href="#">Browse Employees</a>
+                <a href="#">Candidate Dashboard</a>
+                <a href="#">Saved Jobs</a>
+            </ul>
+
+            <ul>
+                <p><b>Employees</b></p><br>
+                <a href="#">Post a Job</a>
+                <a href="#">Browse Candidate</a>
+                <a href="#">Employee Dashboard</a>
+                <a href="#">Applications</a>
+            </ul>
+
+            <ul>
+                <p><b>support</b></p><br>
+                <a href="#">Faqs</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </ul>
+        </div><br><hr>
+        <div class="foot-panel2">
+            <div class="copyright">
+                <a>© 2025 SkillSync - Job Portal. All right reserved </a>
+            </div>
+            <div class="footer-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
